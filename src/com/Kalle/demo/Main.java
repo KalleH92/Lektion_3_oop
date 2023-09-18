@@ -8,13 +8,13 @@ public class Main {
         Student benny = new Student("Benny",15,true);
         Student frida = new Student("Frida",22,false);
 
+        System.out.println("is this the first commit?");
 
         benny.name = "Benny";
         frida.name = "Frida";
         benny.age = 15;
         frida.age = 22;
 
-        System.out.println(benny.name);
         System.out.println(benny.age);
         System.out.println(benny.isTired);
         System.out.println(frida.name);
